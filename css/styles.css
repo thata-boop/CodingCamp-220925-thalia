@@ -1,7 +1,7 @@
 .logo {
-    height: 75px;
+    height: 80px;
     background-color: aliceblue;
-    width: 75px;
+    width: 80px;
     border-radius: 50%;
     background-image: url('../asset/logo.png');
     background-size: cover;
