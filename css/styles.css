@@ -3,7 +3,12 @@
     background-color: aliceblue;
     width: 75px;
     border-radius: 50%;
-    background-image: image('');
-    background-size: auto;
+    background-image: url('../asset/logo.png');
+    background-size: cover;
     background-position: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
 }
