@@ -6,9 +6,29 @@
     background-image: url('../asset/logo.png');
     background-size: cover;
     background-position: center;
+    transition: transform 0.3s;
+}
+.logo:hover {
+    transform: scale(1.05);
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+    background-color:lavender;
+}
+
+.body {
+    padding-bottom: 50px;
+}
+
+.border-t {
+    border-top: 1px solid plum; /* Tailwind's gray-200 color */
+    margin: 3px 3px;
+}
+
+li a:hover {
+    background-color: plum;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
 }
